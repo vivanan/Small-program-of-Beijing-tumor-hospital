@@ -1,0 +1,18 @@
+<!-- 导航菜单-begin -->
+<view class="flex-bar main">
+    <view class="flex-bar-in">
+        <view class="li nav-item on">
+            <navigator url="/pages/index/index" class="a">专题</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="/pages/departments/departments" class="a">科室</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="/pages/doctor/doctor" class="a">医生</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="/pages/disease/disease" class="a">疾病</navigator>
+        </view>
+    </view>
+  </view>
+  <!-- 导航菜单-end -->

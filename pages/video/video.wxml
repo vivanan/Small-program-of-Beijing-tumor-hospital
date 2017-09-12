@@ -1,0 +1,57 @@
+<!-- 导入Item模板 -->
+<import src="../public/item.wxml"/>
+<!--index.wxml-->
+<view class="warper">
+    <!-- 主体 begin -->
+
+  <view class="main">
+    <view class='box'>
+        <view class="zt-box clearfix">
+            <block wx:for="{{videoList}}" wx:key="vidid">
+                <!-- 使用专题模板，传入当前循环对象item -->
+                <template is="jiefItem4" data="{{...item}}"/>
+            </block>
+        </view>
+    </view>
+    <view class="con">
+      
+      <view class='con'>
+          <view class='xgks'>
+              <view class='xg_title'>
+                  <view class='up_tit'></view>
+                  相关科室
+              </view>
+              <block wx:for="{{depList}}" wx:key="avid">
+                  <!-- 使用专题模板，传入当前循环对象item -->
+                  <template is="jiefItem5" data="{{...item}}"/>
+              </block>
+          </view>
+      </view>
+      <view class='con'>
+          <view class='xgys'>
+              <view class='xg_title'>
+                  <view class='up_tit'></view>
+                  相关医生
+              </view>
+              <block wx:for="{{docList}}" wx:key="docid">
+                  <!-- 使用专题模板，传入当前循环对象item -->
+                  <template is="jiefItem6" data="{{...item}}"/>
+              </block>
+          </view>
+      </view>
+      <view class='con' style='margin:0;'>
+          <view class='xgks'>
+              <view class='xg_title'>
+                  <view class='up_tit'></view>
+                  相关疾病
+              </view>
+              <block wx:for="{{depList}}" wx:key="avid">
+                  <!-- 使用专题模板，传入当前循环对象item -->
+                  <template is="jiefItem7" data="{{...item}}"/>
+              </block>
+          </view>
+      </view>
+    </view>
+  </view>
+    <!-- 主体 end -->
+</view>

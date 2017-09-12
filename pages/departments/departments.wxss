@@ -1,0 +1,21 @@
+/**departments.wxss**/
+.item{
+    width:308rpx;
+}
+.top{
+    width:100%;
+    height: 160rpx;
+    position:relative;
+    margin-right:40rpx;
+}
+.top .cover-img{
+    width:100%;
+    height: 160rpx;
+    background-size:cover;
+}
+.content-list{
+    padding:15rpx 19rpx;
+    border-bottom:0;
+    float:left;
+    overflow: hidden;
+}

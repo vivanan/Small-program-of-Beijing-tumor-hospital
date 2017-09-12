@@ -1,0 +1,22 @@
+<!-- 导入Item模板 -->
+<import src="../public/item.wxml"/>
+<view class="warper">
+  <!-- 顶部导航 begin -->
+  <include src="../public/header.wxml"/>
+  <!-- 顶部导航 end -->
+  <!-- 主体 begin -->
+  <view class="main">
+    <view class="con">
+      <!-- 面包屑 begin -->
+      <include src="../public/position.wxml"/>
+      <!-- 面包屑 end -->
+      <view class="zt-box">
+        <block wx:for="{{subvideoList}}" wx:key="avid">
+          <!-- 使用专题模板，传入当前循环对象item -->
+          <template is="subjectvideo_list" data="{{...item}}"/>
+        </block>
+      </view>
+    </view>
+  </view>  
+  <!-- 主体 end -->
+</view>

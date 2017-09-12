@@ -1,0 +1,25 @@
+<!-- 导入Item模板 -->
+<import src="../public/item.wxml"/>
+<!--index.wxml-->
+<view class="warper">
+    <!-- 顶部导航 begin -->
+    <include src="../public/header.wxml"/>
+    <!-- 顶部导航 end -->
+    <!-- 主体 begin -->
+    <view class="main">
+        <view class="con">
+            <!-- 顶部导航 begin -->
+            <include src="../public/position.wxml"/>
+            <!-- 顶部导航 end -->
+
+            <view class="zt-box clearfix">
+                <block wx:for="{{disList}}" wx:key="avid">
+                    <!-- 使用专题模板，传入当前循环对象item -->
+                    <template is="jiefItem2" data="{{...item}}"/>
+                </block>
+            </view>
+        </view>
+
+    </view>
+    <!-- 主体 end -->
+</view>

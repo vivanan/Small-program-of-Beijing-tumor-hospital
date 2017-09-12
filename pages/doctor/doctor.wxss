@@ -1,0 +1,24 @@
+.top{
+  float: left;
+  margin-right: 5%;
+  height:auto;
+  width: 38%;
+}
+.top .cover-img{
+  height: 390rpx;
+  width: 100%;
+}
+.info{
+  width: 57%;
+}
+.title2{
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #888;
+}
+.bottom .title{
+  margin-right: 30rpx;
+}
+.bottom{
+  border-bottom: 1px solid #eee;
+}

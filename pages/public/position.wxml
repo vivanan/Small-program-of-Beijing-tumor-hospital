@@ -1,0 +1,35 @@
+<!-- 位置筛选菜单-begin -->
+<view class="titleBox clearfix">
+    <view class="now-position fs-tit">
+  当前位置 : {{position}} <text>(共141个视频)</text>       
+    </view>
+    <view class="sx-btn">筛选</view>
+</view>
+<view class='fliterBox'>
+  <view class='subject-drop-down'>专题名称</view>
+  <view class='clearfix releasetime-box'>
+    <view class='fl releasetime-tit'>发布时间</view>
+    <view class='clearfix fl releasetime-ul'>
+      <text class='fl on'>一周内</text>
+      <text class='fl'>一月内</text>
+      <text class='fl'>一年内</text>
+      <text class='fl' style='margin:0;'>一年以上</text>
+    </view>
+  </view>
+  <view class='clearfix releasetime-box'>
+    <view class='fl releasetime-tit'>播放次数</view>
+    <view class='clearfix fl releasetime-ul'>
+      <text class='fl on'>100次</text>
+      <text class='fl'>300次</text>
+      <text class='fl'>500次</text>
+      <text class='fl' style='margin:0;'>500+次</text>
+    </view>
+  </view>
+  <input type='text' class='search-box' placeholder='视频名称'></input> 
+  <view class='clearfix'>
+    <button class='fl enter'>确认</button>
+    <button class='fl out'>取消</button>
+  </view>
+</view>
+
+<!-- 位置筛选菜单-end -->

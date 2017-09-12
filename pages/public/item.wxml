@@ -1,0 +1,349 @@
+<!-- 专题Item -->
+<template name="jiefItem1">
+    <!-- List Item begin -->
+    <view class="content-list">
+        <navigator class="item clearfix" url='/pages/sublist/sublist'>
+            <view class="top fl">
+                <view class="cover-img" style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+                <view class="un-tit">共121个视频</view>
+            </view>
+            <view class="info fl">
+                <view class="title fs-tit">
+                    {{title}}
+                </view>
+                <view class="meta">
+                    <view class="ztjs clearfix">
+                        <view class="icon-ztjs fl">
+                        </view>
+                        <text class="fl">
+                            专题介绍
+                        </text>
+                    </view>
+                    <view class="time clearfix">
+                        <view class="icon-time fl">
+                        </view>
+                        <text class="fl">
+                            {{time}}
+                        </text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+        <navigator>
+            <text class="zt-list-li">{{list}}</text>
+        </navigator>
+        <navigator>
+            <text class="zt-list-li">{{list}}</text>
+        </navigator>
+    </view>
+    <view class="bottom" wx:if="{{title2}}">
+        <view class="title2 .fs-tit">{{title2}}</view>
+        <view class="un-tit" style="margin-bottom:16rpx;">共121个视频</view>
+        <view class="time clearfix">
+            <view class="icon-time fl">
+            </view>
+            <text class="fl">
+                {{time}}
+            </text>
+        </view>
+        <navigator>
+            <text class="zt-list-li">{{list}}</text>
+        </navigator>
+        <navigator>
+            <text class="zt-list-li">{{list}}</text>
+        </navigator>
+    </view>    
+    <!-- List Item end -->
+</template>
+<!-- 疾病,科室Item -->
+<template name="jiefItem2">
+    <!-- List Item begin -->
+    <view class="content-list clearfix">
+        <navigator class="item">
+            <view class="top">
+                <view class="cover-img"
+                      style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+                <view class="un-tit">共121个视频</view>
+            </view>
+            <view class="info">
+                <view class="title fs-tit">
+                    {{title}}
+                </view>
+                <view class="meta">
+                    <view class="ztjs clearfix">
+                        <view class="icon-ztjs fl">
+                        </view>
+                        <text class="fl">
+                            {{classify}}
+                        </text>
+                    </view>
+                    <view class="time clearfix">
+                        <view class="icon-time fl">
+                        </view>
+                        <text class="fl">
+                            {{time}}
+                        </text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <!-- List Item end -->
+</template>
+
+<!-- 专题视频列表 -->
+<template name="subjectvideo_list">
+    <!-- List Item begin -->
+    <view class="content-list">
+        <navigator class="item clearfix" url="/pages/video/video">
+            <view class="top fl">
+                <view class="cover-img" style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+            </view>
+            <view class="info fl">
+                <view class="title fs-tit">
+                    {{title}}
+                </view>
+                <view class="meta">
+                    <view class="ztjs clearfix">
+                        <view class="icon-ztjs fl">
+                        </view>
+                        <text class="fl">
+                            {{classify}}
+                        </text>
+                    </view>
+                    <view class="time clearfix">
+                        <view class='clearfix fl' style="margin-right: 52rpx;">
+                          <view class="icon-time fl">
+                          </view>
+                          <text class="fl">
+                              {{time}}
+                          </text>
+                        </view>
+                        <view class='clearfix fr'>
+                          <view class="icon-readnum fl">
+                          </view>
+                          <text class="fl">
+                              播放{{readnum}}次
+                          </text>
+                        </view>
+                        
+                    </view>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <!-- List Item end -->
+</template>
+
+<!-- 医生Item -->
+<template name="jiefItem3">
+    <!-- List Item begin -->
+    <view class="content-list clearfix">
+        <navigator class="item">
+            <view class="top fl">
+                <view class="cover-img"
+                      style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+                <view class="un-tit">共121个视频</view>
+            </view>
+            <view class="info fl">
+                <view class="title fs-tit">
+                    {{title}}
+                </view>
+                <view class="meta">
+                    <view class='title2'>
+                        {{zhiwu}}
+                    </view>
+                    <view class='title2'>
+                        {{zhicheng}}
+                    </view>
+                    <view class='title2'>
+                        {{shanchang}}
+                    </view>
+                    <view class="ztjs clearfix">
+                        <view class="icon-ztjs fl">
+                        </view>
+                        <text class="fl">
+                            {{classify}}
+                        </text>
+                    </view>
+                    <view class="time clearfix">
+                        <view class="icon-time fl">
+                        </view>
+                        <text class="fl">
+                            {{time}}
+                        </text>
+                    </view>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class="bottom" wx:if="{{title2}}">
+        <view class='clearfix'>
+            <view class="title fs-tit fl">
+                {{title}}
+            </view>
+            <view class="un-tit fl" style="margin-bottom:16rpx;">共121个视频</view>
+        </view>
+        <view class="meta">
+            <view class='title2'>
+                {{zhicheng}}
+            </view>
+            <view class='title2'>
+                {{shanchang}}
+            </view>
+            <view class="ztjs clearfix">
+                <view class="icon-ztjs fl">
+                </view>
+                <text class="fl">
+                    {{classify}}
+                </text>
+            </view>
+            <view class="time clearfix">
+                <view class="icon-time fl">
+                </view>
+                <text class="fl">
+                    {{time}}
+                </text>
+            </view>
+        </view>
+    </view>
+    <!-- List Item end -->
+</template>
+<!-- 视频Item -->
+<template name="jiefItem4">
+    <!-- List Item begin -->
+    <view class="content-list clearfix">
+        <video id="myVideo" src="{{coverVideo}}" enable-danmu danmu-btn controls></video>
+        <view class="info">
+            <view class="title fs-tit">
+                {{title}}
+            </view>
+            <view class="meta">
+                <view class="time fl">
+                    <view class="icon-time fl">
+                    </view>
+                    <text class="fl">
+                        {{time}}
+                    </text>
+                </view>
+                <view class="ztjs fl">
+                    <view class="icon-ztjs fl">
+                    </view>
+                    <text class="fl">
+                        播放121次
+                    </text>
+                </view>
+                <view class='clearfix'></view>
+            </view>
+            <view class='content'>
+                    {{content}}
+            </view>
+        </view>
+    </view>
+    <!-- List Item end -->
+</template>
+
+<!-- 相关科室Item -->
+<template name="jiefItem5">
+    <!-- List Item begin -->
+    <view class="ks-list clearfix" wx:if="{{title}}">
+        <navigator class="item">
+            <view class="top">
+                <view class="cover-img"
+                      style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+                <view class="un-tit">{{title}}</view>
+                
+            </view>
+            <!-- 没图显示下面 -->
+            <view class='no-img'>{{no_img_tit}}</view>
+            <!-- 没图显示上面 -->
+            <view class="content">
+                {{content}}
+            </view>
+            <view class='more'>
+                <text>更多科室：</text>{{more}}
+            </view>
+        </navigator>
+    </view>
+    <view class="ks-list clearfix" wx:if="{{title2}}">
+        <navigator class="item">
+            <view class="title2">{{title2}}</view>
+            <view class="content">
+                {{content}}
+            </view>
+            <view class='more'>
+                <text>更多科室：</text>{{more}}
+            </view>
+        </navigator>
+    </view>
+    <!-- List Item end -->
+</template>
+<!-- 相关医生Item -->
+<template name="jiefItem6">
+    <!-- List Item begin -->
+    <view class="ks-list clearfix">
+        <navigator class="item">
+            <view class="top fl">
+                <view class="cover-img"
+                      style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+            </view>
+            <view class="content fl">
+                <view class="title fs-tit">
+                    {{title}}
+                </view>
+                <view>
+                    {{zhiwu}}
+                </view>
+                <view style='margin-top:20rpx;'>
+                    {{zhicheng}}
+                </view>
+                <view>
+                    {{shanchang}}
+                </view>
+            </view>
+            <view class='clearfix'></view>
+            <view class='more'>
+                <text>更多医生：</text>{{more}}
+            </view>
+        </navigator>
+    </view>
+    <!-- List Item end -->
+</template>
+<!-- 相关疾病Item -->
+<template name="jiefItem7">
+    <!-- List Item begin -->
+    <view class="ks-list clearfix">
+        <navigator class="item">
+            <view class="top">
+                <view class="cover-img"
+                      style="opacity: 1; background-image: url({{coverImg}});">
+                </view>
+                <view class="un-tit">{{title}}</view>
+            </view>
+            <view class="content">
+                {{content}}
+            </view>
+            <view class='more'>
+                <text>更多疾病：</text>{{more}}
+            </view>
+        </navigator>
+    </view>
+    <view class="ks-list clearfix" wx:if="{{title2}}">
+        <navigator class="item">
+            <view class="title2">{{title2}}</view>
+            <view class="content">
+                {{content}}
+            </view>
+            <view class='more'>
+                <text>更多疾病：</text>{{more}}
+            </view>
+        </navigator>
+    </view>
+    <!-- List Item end -->
+</template>

@@ -1,0 +1,98 @@
+.main{
+  padding:0;
+}
+.box{
+  background: #fff;
+  margin-bottom: 15rpx;
+  box-shadow: 0px 2px 7px 0px rgba(0,0,0,.2);
+
+}
+.box .info{
+  padding: 15rpx 20rpx 30rpx;
+}
+.con{
+  margin-bottom:20rpx;
+}
+.content-list{
+  padding: 0;
+}
+video{
+  width: 100%;
+}
+.ztjs{
+  margin-bottom: 0;
+  margin-left: 30rpx;
+}
+.content{
+  width: 100%;
+  color: #888;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  line-height: 42rpx;
+}
+
+.xgks,.xgys{
+  padding: 20rpx 30rpx;
+}
+.xg_title{
+  margin-bottom: 20rpx;
+}
+.up_tit{
+  float: right;
+  width: 46rpx;
+  height: 50rpx;
+  background-size: 36rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAYAAAB4MH11AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2VpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCMDMzRTg3MzNCN0VFNzExQTA2MDg4RTIzMDk5ODE4QSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0RDZCNDZFNzk2QTAxMUU3QjkwMkM1Q0EyMkExQjI3NSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0RDZCNDZFNjk2QTAxMUU3QjkwMkM1Q0EyMkExQjI3NSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NUUwMjRBNTFFQzhFRTcxMTlCNDBEMzk1NjBDNEREN0YiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjAzM0U4NzMzQjdFRTcxMUEwNjA4OEUyMzA5OTgxOEEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7Sjt8qAAAAtklEQVR42mJcwsCgwMDAUA/EhUD8gYFEEP3/P4bYUkZGASC1HmQmE5B4ABXfD8QCDBQCqOEgsx4ALb/ABBVPBOILlFqCZPgFoOEgMxmYkOQpsgSb4egWkG0JLsNBgHEJdj3zgdgAiB2JiHichmPzATafKJBrOD4LYJYcAOLzUN+QbDghCxigeaMQahCyJSD2fUKGgwALEXG4ACmfOCKxC5HkKLIA3RIGYg0nxQIGNAMXEKsJIMAAO5NEiNNzFjQAAAAASUVORK5CYII=) no-repeat right center;
+}
+.xgks .top{
+  width: 100%;
+  height: 320rpx;
+}
+.xgks .top .cover-img{
+  width: 100%;
+  height: 320rpx;
+}
+.more{
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  border-top: 1px solid #eee;
+  padding-top: 30rpx;
+  color: #888;
+  line-height: 42rpx;
+}
+.more text{
+  color:#a40000;
+}
+/*相关医生*/
+.xgys .top{
+  float: left;
+  margin-right: 5%;
+  height:auto;
+  width: 38%;
+}
+.xgys .top .cover-img{
+  height: 390rpx;
+  width: 100%;
+}
+.xgys .content{
+  width: 57%;
+  margin-top: 0;
+}
+
+.top .un-tit{
+  width: 100%;
+  text-align: right;
+  background: #5191bd;
+  opacity: 0.9;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+.title2{
+  font-size: 30rpx;
+  border: 1px solid #e2e2e2;
+  background: #f2f2f2;
+  padding: 5rpx 26rpx;
+  display: inline-block;
+  margin-bottom: 0;
+  border-radius: 5px;
+}

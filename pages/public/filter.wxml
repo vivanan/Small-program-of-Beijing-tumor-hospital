@@ -1,0 +1,12 @@
+<!-- 筛选 -->
+<template name="filter">
+  <view class='fliterBox'>
+    <view class='subject-drop-down'>专题名称</view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{sub}}" style="line-height: 50px">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+
+</template>

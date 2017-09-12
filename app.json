@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/disease/disease",
+    "pages/departments/departments",
+    "pages/sublist/sublist",
+    "pages/doctor/doctor",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#a40000",
+    "navigationBarTitleText": "大家讲堂",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": "true"
+  }
+}

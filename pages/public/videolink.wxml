@@ -1,0 +1,9 @@
+<!-- 导航菜单-begin -->
+<view class="flex-bar main">
+    <view class="flex-bar-in">
+        <view class="li nav-item">
+            <navigator url="/pages/video/video" class="a">一个视频</navigator>
+        </view>
+    </view>
+</view>
+<!-- 导航菜单-end -->
